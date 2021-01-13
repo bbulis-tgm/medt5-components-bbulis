@@ -12,16 +12,16 @@
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottom_app_bar"
         android:layout_gravity="bottom"
-        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:backgroundTint="@color/primary_color"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:menu="@menu/bottom_bar_menu"
-        app:navigationIcon="@drawable/ic_baseline_menu_24"/>
+        app:menu="@menu/bottom_bar_menu" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floating_action_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary_comp"
         android:src="@drawable/ic_baseline_add_24"
         app:layout_anchor="@id/bottom_app_bar"
         android:contentDescription="@string/button_add_description" />
