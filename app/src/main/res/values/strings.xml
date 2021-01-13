@@ -3,7 +3,7 @@
     <string name="menu_reset">Reset</string>
     <string name="button_add_description">Adding 1 to the counter</string>
     <string name="menu_toast">Toast Aktivieren</string>
-    <string name="color_switch">Farben ändern</string>
+    <string name="color_switch">Größe ändern</string>
     <string name="clicked_label">Clicked: </string>
     <string name="clicked_count">0</string>
 </resources>
