@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menu_add_option"
+        android:id="@+id/menu_reset_option"
         android:icon="@drawable/ic_baseline_delete_24"
         android:title="@string/menu_reset"
         app:showAsAction="ifRoom"
@@ -12,7 +12,7 @@
     <item
         android:id="@+id/menu_toast_option"
         android:icon="@drawable/ic_baseline_subtitles_24"
-        android:title="@string/menu_toast"
+        android:title="@string/menu_toast_enable"
         app:showAsAction="never"
         />
 
